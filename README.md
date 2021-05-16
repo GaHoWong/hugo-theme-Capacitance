@@ -1,6 +1,3 @@
----
-title: readme
----
 ## 简介
 
 一款非常简洁、性能高的Hugo主题，在不同设备上均具有出色的性能。本主题基于
@@ -39,3 +36,22 @@ utteranc评论
 自定义图片CDN  
 图片点击放大
 
+## 下载安装
+
+
+### 下载方式一：Github
+
+``` bash
+git clone https://github.com/GaHoWong/hugo-theme-Capacitance.git themes/Capacitance
+```
+
+### 下载方式二：Gitee
+
+``` bash
+git clone https://gitee.com/gahowong/hugo-theme-Capacitance.git themes/Capacitance
+```
+
+### 安装
+
+1.在博客根目录下的`config.toml`文件末尾添加`theme = "Capacitance"`
+2.启动博客`hugo server`
