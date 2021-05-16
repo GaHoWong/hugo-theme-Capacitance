@@ -29,7 +29,7 @@
         {{- end }}
     {{- end }}
     <meta property="og:url" content="{{ .Permalink }}">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href='{{ "favicon.ico/" | relURL }}'  type="image/x-icon">
 
     <link rel="stylesheet" href='{{ "css/normalize.css" | relURL}}'>
     <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
@@ -45,7 +45,7 @@
     {{if .Site.Params.fancybox }}
         <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
     {{ end }}
-    
+
     <!-- custom css -->
     {{ range .Site.Params.customCSS }}
         <link rel="stylesheet" href='{{ "/css/" | relURL }}{{ . }}'>
